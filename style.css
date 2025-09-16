@@ -1,0 +1,311 @@
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: #f7f7f7;
+      
+    }
+
+    .hero {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 50px 10%;
+      flex-wrap: wrap;
+    }
+
+    .hero-text {
+      max-width: 500px;
+     
+    }
+
+    .hero-text h1 {
+      font-size: 2.5rem;
+      color: #111;
+      margin-bottom: 20px;
+      
+    }
+
+    .hero-text p {
+      font-size: 1.1rem;
+      color: #6c757d;
+      margin-bottom: 30px;
+    }
+
+    .btn {
+      padding: 12px 25px;
+      background: #007bff;
+      color: #fff;
+      font-size: 1rem;
+      border: none;
+      border-radius: 30px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      box-shadow: 5px 5px 10px black;
+      text-decoration: none;
+      
+    }
+    .btn a{
+      color: white;
+      text-shadow: 5px 5px 10px black;
+      text-decoration: none;
+      
+    } 
+    .btn:hover {
+      background: #0056d2;
+      transform: scale(1.05);
+    }
+
+
+    .frame-stack {
+      position: relative;
+      width: 350px;              
+      aspect-ratio: 4 / 5;      
+      
+      overflow: visible;
+    }
+
+  
+    .frame-stack .photo {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 60%;
+      border-radius: 20px;       
+      box-shadow: none;         
+      transition: transform 0.3s ease, filter 0.3s ease;
+      z-index: 1;
+      margin-left: 90px;
+      margin-top: 40px;
+      
+    }
+
+    .frame-stack:hover .photo {
+      transform: translateY(-8px);
+    }
+
+
+    .frame-stack .overlay {
+      
+      inset: 0;
+     
+      width: 400px;
+      height: 550px;
+      z-index: 2;
+      pointer-events: none;   
+      box-shadow: none; 
+      border-radius: 60px;
+      padding: 20px;
+      
+      
+      
+      
+    }
+
+    
+
+    .about{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 50px 10%;
+      flex-wrap: wrap;
+      
+     
+    }
+    .about-text{ max-width: 500px; font-weight: 600; }
+    .icon{ padding-right:5px; }
+    .skill{ font-size: 60px; gap: 100px; }
+    .icon-text{margin-left: -30PX;  font-size: 20px; position: absolute; font-weight: 600; display: flex; justify-content: space-around;}
+    
+
+    .Portfolio{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 50px 10%;
+      flex-wrap: wrap;
+      
+    }
+    .pro{ margin-left: 130px; }
+
+    .project1{
+      width: 200px;
+      height: 150px;
+      background-color: rgb(48, 153, 202);
+      border-radius: 20px;
+      box-shadow: 5px 5px 10px black;
+      
+    }
+    .project1 :hover{ background-color: #082e63; transform: scale(1.10); }
+    .project1 img{ margin-left: 35px; margin-top: 15px; border-radius: 20px; animation: bounce 1s infinite; }
+     @keyframes bounce{
+      0%, 100%{transform: translateY(0);}
+      50% {transform: translateY(-7px);}
+    }
+
+    .no{
+      position: absolute;
+      background-color: rgb(235, 232, 232);
+      width: 190px;
+      height: 40px;
+      margin-top: -60px;
+      border-bottom-left-radius: 20px;
+      border-bottom-right-radius: 20px;
+      padding-top: 20px;
+      padding-left: 10px;
+      font-size: larger;
+      font-weight: 600;
+      color: rgb(48, 153, 202);
+      
+    }
+
+    .service{
+      align-items: center;
+      padding: 50px 10%;
+      flex-wrap: wrap;
+ 
+      
+    }
+
+
+
+
+    .icon1{ display: block; }
+    .img{
+      position: absolute;
+      margin-left: 700px;
+      margin-top: -400px;
+    }
+
+    .foot{
+      width: 80%;
+      height: 150px;
+      background-color: #000000;
+      display: flex;
+      justify-content: space-around;
+      padding: 20px 10%;
+      flex-wrap: wrap;
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+    }
+    .foot a{ text-decoration: none;
+       color: white;
+      }
+
+    .foot a:hover{
+       color: red; 
+      }
+
+    .media{
+      color: white;
+      
+      gap: 380px;
+    }
+    .media2{
+      color: white;
+     
+      gap: 390px;
+    }
+    .icons{
+      cursor: pointer;
+      transition: all 0.03 ease;
+    }
+    .icons:hover{ color: red; transform: translateY(-1px); }
+    .like{
+      font-size: 25px;
+      background-color: yellow;
+      width: 22px;
+      height: 24px;
+      display: flex;
+      justify-content: center;
+      border-radius: 50px;
+      position: absolute;
+      margin-top: -189px;
+      margin-left: 87px;
+    }
+   
+    .nav img{
+      margin-left: 100px;
+      margin-top: 20px;
+    }
+    .code{
+      position: absolute;
+      margin-left: 950px;
+      margin-top: -290px;
+      font-size: 25PX;
+      font-weight: 600;
+    }
+    .feel{
+      position: absolute;
+      margin-left: 936px;
+      margin-top: 360px;
+      font-size: 15px;
+      background: #f7f7f7;
+      color: rgb(32, 31, 31);
+      font-weight: 600;
+      
+     
+    }
+    .html{
+      color: red;
+    }
+    .css{
+      color: #007bff;
+    }
+    .js{
+      color: rgb(80, 151, 47);
+    }
+  .smile{
+    border-radius: 50px;
+  }
+ 
+.flot{
+  position: relative;
+  animation: floatUp 10s linear infinite;
+}
+@keyframes floatUp{
+  0% {transform: translateY(0);}
+  100% {transform: translateY(-50px);}
+}
+#popup{
+  
+  position: fixed;
+  right: 0px;
+  z-index: 1000;
+  margin-top: 100px;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  height: 25px;
+  width: 300px;
+  text-align: center;
+  font-weight: 600;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 0.8s ease;
+}
+#popup.show{
+opacity: 5;
+transform: translateY(0);
+}
+.snift{
+  display: flex;
+  justify-content: space-around;
+}
+.snift a{
+  text-decoration: none;
+  width: 100px;
+  height: 50px;
+color: black;
+}
+.snift h4{
+  width: 200px;
+  height: 30px;
+  background-color: rgb(169, 223, 22);
+  text-align: center;
+  padding-top: 15px;
+  border-radius: 20px;
+  box-shadow: 10px 10px 10px black;
+  font-size: 18px;
+  font-weight: 600;
+}
